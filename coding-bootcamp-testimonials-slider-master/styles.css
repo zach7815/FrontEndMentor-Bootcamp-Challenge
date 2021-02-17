@@ -1,0 +1,86 @@
+.attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: url("images/pattern-bg.svg") 91% 47% no-repeat,
+    url("images/pattern-curve.svg") left bottom no-repeat;
+  background-size: 42%;
+}
+
+.testimonial {
+  display: flex;
+  height: 60vh;
+  width: 100vw;
+  background-image: url("images/pattern-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: 28% 50%;
+}
+
+.testimonial blockquote {
+  font-size: 32px;
+  font-weight: 300;
+  color: hsl(240, 38%, 20%);
+  position: relative;
+  z-index: 1;
+  width: 44%;
+  left: 14.3%;
+}
+
+.quoteImg {
+  height: 60%;
+  z-index: 0;
+  position: absolute;
+  top: 10rem;
+  right: 9rem;
+  border-radius: 8px;
+}
+.quoteAndCite {
+  position: relative;
+  top: 15rem;
+}
+
+.directional-arrows {
+  position: relative;
+  left: 60%;
+  top: 17%;
+  background-color: white;
+  width: 6.5rem;
+  height: 3.2rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 70px;
+  box-shadow: 2px 40px 130px 2px darkgray;
+}
+
+.left-Arrow {
+  cursor: pointer;
+}
+.right-Arrow {
+  cursor: pointer;
+}
+
+.testimonial cite {
+  font-size: 15px;
+  color: hsl(240, 18%, 77%);
+  font-weight: 300;
+  position: relative;
+  left: 17.8%;
+}
+.name {
+  font-weight: 500;
+  color: hsl(240, 38%, 20%);
+}
